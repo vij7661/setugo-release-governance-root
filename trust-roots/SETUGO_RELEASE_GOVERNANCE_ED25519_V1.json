@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "trust_root_id": "SETUGO_RELEASE_GOVERNANCE_ED25519_V1",
+  "algorithm": "Ed25519",
+  "public_key_path": "trust-roots/SETUGO_RELEASE_GOVERNANCE_ED25519_V1.pem",
+  "public_key_der_sha256": "91355cf1049a27aac52ea56f5ba1664054aded93500203cd23d557a710b0444c",
+  "authority_scope": "RELEASE_TERMINAL_AUTHORITY_ATTESTATION_VERIFICATION_ONLY",
+  "permitted_authority_class": "HUMAN_RELEASE_AUTHORITY",
+  "permitted_decision_scopes": [
+    "TERMINAL_ACTION:RELEASE:MERGE_RELEASE_CANDIDATE",
+    "TERMINAL_ACTION:RELEASE:BEGIN_PRODUCTION_QUALIFICATION"
+  ],
+  "private_key_location": "EXTERNAL_OFF_REPOSITORY_USER_CONTROLLED",
+  "private_key_must_never_be_committed": true,
+  "authority_effect": "NONE_BY_ITSELF",
+  "notes": "This repository contains public verification material only. This root is RELEASE-scoped and must not be used to satisfy TESTING or PRODUCTION authority."
+}
